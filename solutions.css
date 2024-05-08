@@ -1,0 +1,218 @@
+/* Primo Esercizio */
+
+.ex-1-square{
+    transition: 3s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* secondo esercizio */
+
+.ex-2-square{
+    transition: 3s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* terzo esercizio */
+
+.ex-3-square{
+transition: 3s;
+}
+
+.ex-3-square:hover{
+    border-radius: 100%;
+}
+
+
+/* quarto esercizio */
+
+.ex-4-square{
+    transition: 3s;
+}
+
+.ex-4-square:hover{
+    opacity: 0;
+}
+
+/* quinto esercizio */
+
+.ex-5-square:hover{
+    transform: scale(2);
+    }
+
+    .ex-5-square:active{
+     transform:scale(0.5,0.5)
+    }  
+    
+ 
+/* sesto esercizio */
+
+.ex-6-img:hover{
+    filter: grayscale(2);
+
+}
+   
+
+/* ottavo esercizio */
+
+.ex-8-img{
+    transition: 3s;
+}
+
+.ex-8-img:hover{
+    filter: grayscale(5) sepia(5);
+    border-radius: 10%;
+}
+
+/* nove esercizio */
+
+.ex-9-img{
+    transition: 3s;
+}
+
+.ex-9-img:hover{
+    filter: grayscale(5) sepia(5);
+    border-radius: 10%;
+    transform: scale(1.5,1.5);
+}
+
+/* decimo esercizio */
+
+.ex-10-icon{
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(1turn);
+    
+    }
+
+}
+
+/* undicesimo esercizio */
+
+.ex-11-icon:hover{
+    animation: spin90 2s linear infinite;
+}
+
+
+@keyframes spin90{
+    0%{
+        transform: rotate(1turn);
+    
+    }
+
+    90%{
+        transform:rotate(310deg) ;
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+
+/* dodicesimo esercizio */
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: movespace 2s linear;
+}
+@keyframes movespace {
+    0% {
+        left: 10%;
+    }
+    50% {
+        left: calc(100% - 60px);
+    }
+    100% {
+        left: 10%;
+    }
+
+
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: bottonw 2s linear;
+}
+@keyframes bottonw {
+    0% {
+        right: 20%;
+    }
+    50% {
+        right: calc(100% - 60px);
+    }
+    100% {
+        right: 20%;
+    }
+}
+
+
+
+/* tredicesimo esercizio */
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: moveTopWhiteCompletely 2s linear;
+}
+@keyframes moveTopWhiteCompletely {
+    0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    }
+}
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: moveBottomWhiteCompletely 2s linear;
+}
+@keyframes moveBottomWhiteCompletely {
+    0% {
+        bottom: -10px;
+        right: 20%;
+    }
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+    100% {
+        bottom: -10px;
+        right: 20%;
+    }
+}
+
+
+
